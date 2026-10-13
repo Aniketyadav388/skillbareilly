@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { supabase } from "@/lib/supabase"; // tera supabase wala file ka path
+import { supabase } from "../supabase";
 
 export default function AdminPage() {
   const [title, setTitle] = useState("");
